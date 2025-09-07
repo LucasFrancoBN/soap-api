@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2025.09.05 às 10:11:27 AM GMT-03:00 
+
+  -->
+      
+    <bindings xmlns:tns="http://example.com/soap" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.example.soap"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:getUserRequest">
+                  
+            <class ref="com.example.soap.GetUserRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getUserResponse">
+                  
+            <class ref="com.example.soap.GetUserResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:userModel">
+                  
+            <class ref="com.example.soap.User"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
